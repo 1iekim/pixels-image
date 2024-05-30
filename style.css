@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas1 {
+  position: absolute;
+}
+
+.controls {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  z-index: 100;
+}
+
+.controls__text {
+  align-self: center;
+}
+
+button {
+  padding: 10px;
+  margin: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: azure;
+  background-color: black;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: azure;
+  color: black;
+}
